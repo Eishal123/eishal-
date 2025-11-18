@@ -147,15 +147,41 @@ code {
   margin-top: 80px;
 }
 
-.nav-custom {}
+.nav-custom {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #0066CC;
+  padding: 1rem 0;
+  border-bottom: 2px solid #ccc;
+}
 
-.nav-custom ul {}
+.nav-custom ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
 
-.nav-custom li {}
+.nav-custom li {
+  display: inline-block;
+}
 
-.nav-custom a {}
+.nav-custom a {
+  color: #310c2b;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
 
-.nav-custom a:hover {}
+.nav-custom a:hover {
+  background-color: #899199;
+  color: #e4b108;
+}
 
 @media (width >=480px) {}
 
